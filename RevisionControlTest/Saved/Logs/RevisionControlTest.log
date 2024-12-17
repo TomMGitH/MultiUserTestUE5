@@ -1499,3 +1499,57 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2024.12.17-12.59.32:131][784]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 306.721680
 [2024.12.17-12.59.33:130][787]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2024.12.17-12.59.33:130][787]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 307.388275, Update Interval: 356.614288
+[2024.12.17-13.02.04:769][392]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.12.17-13.02.04:793][392]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.12.17-13.02.04:798][392]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.12.17-13.02.04:807][393]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.12.17-13.02.06:521][598]LogContentBrowser: Attempting asset rename: NewBlueprint -> TESTCHANGE
+[2024.12.17-13.02.06:525][598]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.12.17-13.02.08:687][854]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/TESTCHANGE.TESTCHANGE
+[2024.12.17-13.02.08:687][854]LogChaosDD: Creating Chaos Debug Draw Scene for world World_2
+[2024.12.17-13.02.08:727][854]LogStreaming: Display: FlushAsyncLoading(395): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.17-13.02.09:193][854]LogStaticMesh: Display: Building static mesh PhAT_FloorBox (Required Memory Estimate: 0.024887 MB)...
+[2024.12.17-13.02.09:193][854]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox
+[2024.12.17-13.02.10:680][971]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.12.17-13.02.15:808][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.12.17-13.02.16:229][476]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.17-13.02.16:263][476]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/TESTCHANGE] ([2] browsable assets)...
+[2024.12.17-13.02.16:263][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/TESTCHANGE]
+[2024.12.17-13.02.16:263][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/TESTCHANGE" FILE="D:/GitHubRepos/MultiUserTestUE5/RevisionControlTest/Content/ThirdPerson/Blueprints/TESTCHANGE.uasset" SILENT=true
+[2024.12.17-13.02.16:265][476]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/TESTCHANGE
+[2024.12.17-13.02.16:265][476]LogSavePackage: Moving 'D:/GitHubRepos/MultiUserTestUE5/RevisionControlTest/Saved/TESTCHANGE23BE83484DBDC05CCD3886AC709A4F36.tmp' to 'D:/GitHubRepos/MultiUserTestUE5/RevisionControlTest/Content/ThirdPerson/Blueprints/TESTCHANGE.uasset'
+[2024.12.17-13.02.16:275][476]LogFileHelpers: InternalPromptForCheckoutAndSave took 46.090 ms
+[2024.12.17-13.02.16:301][476]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.17-13.02.16:301][476]LogContentValidation: Enabled validators:
+[2024.12.17-13.02.16:301][476]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.17-13.02.16:301][476]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.17-13.02.16:301][476]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.17-13.02.16:301][476]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.17-13.02.16:301][476]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.17-13.02.16:301][476]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.17-13.02.16:302][476]AssetCheck: /Game/ThirdPerson/Blueprints/TESTCHANGE Validating asset
+[2024.12.17-13.02.18:259][692]LogSlate: Window 'TESTCHANGE' being destroyed
+[2024.12.17-13.02.21:833][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.12.17-13.02.21:836][ 93]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.17-13.02.21:870][ 93]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/GT/15XEOYDVW0046O1VQUQSU1
+[2024.12.17-13.02.21:870][ 93]LogSavePackage: Moving 'D:/GitHubRepos/MultiUserTestUE5/RevisionControlTest/Saved/15XEOYDVW0046O1VQUQSU1C01B89604689C8221A10B4834A73ECE8.tmp' to 'D:/GitHubRepos/MultiUserTestUE5/RevisionControlTest/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/GT/15XEOYDVW0046O1VQUQSU1.uasset'
+[2024.12.17-13.02.21:872][ 93]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Maps/_GENERATED/murph/CubeGridToolOutput_A4DCCCD6] ([1] browsable assets)...
+[2024.12.17-13.02.21:873][ 93]LogChaosDD: Creating Chaos Debug Draw Scene for world World_3
+[2024.12.17-13.02.21:930][ 93]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ThirdPerson/Maps/_GENERATED/murph/CubeGridToolOutput_A4DCCCD6.CubeGridToolOutput_A4DCCCD6]
+[2024.12.17-13.02.21:930][ 93]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Maps/_GENERATED/murph/CubeGridToolOutput_A4DCCCD6]
+[2024.12.17-13.02.21:932][ 93]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/_GENERATED/murph/CubeGridToolOutput_A4DCCCD6
+[2024.12.17-13.02.21:932][ 93]LogSavePackage: Moving 'D:/GitHubRepos/MultiUserTestUE5/RevisionControlTest/Saved/CubeGridToolOutput_A4DCCCD60B088FFB4A53BFAD0325EDA65A345D77.tmp' to 'D:/GitHubRepos/MultiUserTestUE5/RevisionControlTest/Content/ThirdPerson/Maps/_GENERATED/murph/CubeGridToolOutput_A4DCCCD6.uasset'
+[2024.12.17-13.02.21:941][ 93]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.573 ms (total: 150.663 ms)
+[2024.12.17-13.02.21:967][ 93]LogContentValidation: Display: Starting to validate 2 assets
+[2024.12.17-13.02.21:967][ 93]LogContentValidation: Enabled validators:
+[2024.12.17-13.02.21:967][ 93]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.17-13.02.21:967][ 93]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.17-13.02.21:967][ 93]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.17-13.02.21:967][ 93]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.17-13.02.21:967][ 93]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.17-13.02.21:967][ 93]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.17-13.02.21:968][ 93]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2024.12.17-13.02.21:968][ 93]AssetCheck: /Game/ThirdPerson/Maps/_GENERATED/murph/CubeGridToolOutput_A4DCCCD6 Validating asset
+[2024.12.17-13.05.33:151][722]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 667.741394
+[2024.12.17-13.05.34:152][725]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.17-13.05.34:152][725]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 668.408264, Update Interval: 343.897217
