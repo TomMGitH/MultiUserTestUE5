@@ -1441,3 +1441,58 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2024.12.17-12.54.31:369][ 52]LogFab: Display: User logged in
 [2024.12.17-12.54.31:369][ 52]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
 [2024.12.17-12.54.31:497][ 66]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-mzLDsskHlkWvrQqZ-6_yww-1q0ySwDE9kWGvUjyTq_x9g]
+[2024.12.17-12.56.19:569][698]LogDerivedDataCache: C:/Users/murph/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.12.17-12.56.37:064][291]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.12.17-12.56.37:113][291]LogContentBrowser: Creating deferred item: NewFolder
+[2024.12.17-12.56.37:132][292]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.12.17-12.56.44:486][605]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2024.12.17-12.56.44:486][605]LogContentBrowser: End creating deferred item NewFolder
+[2024.12.17-12.56.54:474][797]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2024.12.17-12.56.59:960][446]LogChaosDD: Creating Chaos Debug Draw Scene for world World_1
+[2024.12.17-12.57.09:576][469]LogStreaming: Display: FlushAsyncLoading(390): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.17-12.57.12:654][809]LogStreaming: Display: FlushAsyncLoading(392): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: ================================================
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Total job queries 1,368, among them cache hits 222 (16.23%), DDC hits 1,121 (81.94%), Duplicates 6 (0.44%)
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Tracking 1,140 distinct input hashes that result in 891 distinct outputs (78.16%)
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: RAM used: 573.03 KiB of 4.80 GiB budget. Usage: 0.01%
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Shaders Compiled: 19
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Jobs assigned 19, completed 19 (100%)
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Average time worker was idle: 11.51 s
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.10 s
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Job execution time: average 1.17 s, max 1.69 s
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Job life time (pending + execution): average 1.22 s, max 1.74
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Shader code size: average 8.157 KiB, min 4.18 KiB, max 14.348 KiB
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.35 s
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Jobs were issued in 19 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Average processing rate: 8.07 jobs/sec
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Total thread time: 6.606 s
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Total thread preprocess time: 18.396 s
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Percentage time preprocessing: 278.46%
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Effective parallelization: 2.81 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2024.12.17-12.57.29:480][582]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.41 sec, max 0.49 sec, min 0.32 sec)
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display:                                                FAnisotropyPS (compiled    2 times, average 0.32 sec, max 0.33 sec, min 0.32 sec)
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    3 times, average 0.32 sec, max 0.35 sec, min 0.27 sec)
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    3 times, average 0.26 sec, max 0.30 sec, min 0.22 sec)
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 30.85% of total time (compiled    5 times, average 0.41 sec, max 0.49 sec, min 0.32 sec)
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.12% of total time (compiled    5 times, average 0.25 sec, max 0.31 sec, min 0.21 sec)
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display:                                                 FLumenCardPS - 14.51% of total time (compiled    3 times, average 0.32 sec, max 0.35 sec, min 0.27 sec)
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.70% of total time (compiled    3 times, average 0.26 sec, max 0.30 sec, min 0.22 sec)
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display:                                                FAnisotropyPS - 9.83% of total time (compiled    2 times, average 0.32 sec, max 0.33 sec, min 0.32 sec)
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display: === Material stats ===
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display: Materials Translated:    138
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display: Material Translation Only: 0.03 s (40%)
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2024.12.17-12.57.29:481][582]LogShaderCompilers: Display: ================================================
+[2024.12.17-12.57.44:528][111]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/ThirdPerson/Maps/_GENERATED/murph/CubeGridToolOutput_A4DCCCD6.CubeGridToolOutput_A4DCCCD6
+[2024.12.17-12.57.44:528][111]LogStaticMesh: Display: Building static mesh CubeGridToolOutput_A4DCCCD6 (Required Memory Estimate: 0.385096 MB)...
+[2024.12.17-12.57.44:529][111]LogStaticMesh: Built static mesh [0.00s] /Game/ThirdPerson/Maps/_GENERATED/murph/CubeGridToolOutput_A4DCCCD6.CubeGridToolOutput_A4DCCCD6
+[2024.12.17-12.57.44:530][111]LogActorFactory: Actor Factory spawned StaticMesh /Game/ThirdPerson/Maps/_GENERATED/murph/CubeGridToolOutput_A4DCCCD6.CubeGridToolOutput_A4DCCCD6 as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_C87F546971D5B83902_1440723071
